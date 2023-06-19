@@ -11,15 +11,15 @@ afterEvaluate{
                 from components.release
 
                 groupId = 'com.github.manjee-official'
-                artifactId = 'manjee_crop'
-                version = '0.0.1'
+                artifactId = 'manjee-crop'
+                version = '0.0.2'
             }
             debug(MavenPublication) {
                 from components.debug
 
                 groupId = 'com.github.manjee-official'
-                artifactId = 'manjee_crop'
-                version = '0.0.1'
+                artifactId = 'manjee-crop'
+                version = '0.0.2'
             }
         }
     }
